@@ -1,8 +1,62 @@
+/*
+Colour palette
+Light blue: #69d2e7
+Pond blue: #a7dbd8
+Swamp green: #e0e4cc
+Goldfish: #f38630
+Vibrant goldfish: #fa6900
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  color: #e0e4cc;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
-  background: rgb(125, 51, 51);
+  background: gray;
+  /* display: flex; */
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: normal;
+  text-align: center;
+  margin: 15% auto 0;
+  border-radius: 20%;
+  background: linear-gradient(135deg, #69d2e7, #fa6900);
+}
+
+.search {
+  margin-top: 16px;
+  outline: 0;
+}
+
+.search input {
+  outline: 0;
+  border: none;
+  border-radius: 25%;
+  color: black;
+}
+
+.search button {
+  outline: 0;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  /* width: 25px; how the fuck do I make the circle smaller*/
+  /* height: 25px; */
+}
+
+.search button img {
+  width: 50%;
 }
