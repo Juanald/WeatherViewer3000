@@ -37,7 +37,8 @@ body {
 }
 
 .search {
-  margin-top: 16px;
+  text-align: center;
+  margin: 16px;
   outline: 0;
 }
 
@@ -63,6 +64,7 @@ body {
 
 .weather {
   font-weight: 700;
+  display: none;
 }
 
 .details {
@@ -78,4 +80,9 @@ body {
 .col img {
   width: 50px;
   margin-right: 20px;
+}
+
+.error {
+  text-align: center;
+  display: none;
 }

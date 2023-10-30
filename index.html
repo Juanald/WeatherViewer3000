@@ -10,21 +10,22 @@
   <body>
     <div class="card">
       <div class="search">
-        <input type="text" placeholder="Enter city name" />
-        <button><img src="images/search.png" /></button>
+        <input class="searchbox" type="text" placeholder="Enter city name" />
+        <button class="searchbutton"><img src="images/search.png" /></button>
+        <p class="error">Invalid input</p>
       </div>
       <div class="weather">
-        <img src="images/clear.png" />
-        <h1 class="weather">Weather</h1>
+        <img src="images/clear.png" class="image" />
+        <h1 class="temp">Weather</h1>
         <h2 class="city">City</h2>
         <div class="details">
           <div class="col">
             <img src="images/humidity.png" />
-            <p>Humidity 69%</p>
+            <p class="humidity">Humidity 69%</p>
           </div>
           <div class="col">
             <img src="images/wind.png" />
-            <p>Wind 69km/h</p>
+            <p class="wind">Wind 69km/h</p>
           </div>
         </div>
       </div>
